@@ -1,0 +1,38 @@
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git log --oneline -6 --graph
+*   1c2ce67 (HEAD -> master) Resuelvo el conflico ded fusion
+|\
+| * ca46e6d (pruebas) Introduzco una linea en el Archivo1
+* |   d584e05 Merge branch 'intento' into master
+|\ \
+| * | 96ee459 (intento) Cambio en la rama intento
+* | | dadae86 Cambio en la rama master
+|/ /
+* / eb62a91 A<C3><B1>ado un nuevo texto
+|/
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git log --oneline -6 --graph --all
+*   1c2ce67 (HEAD -> master) Resuelvo el conflico ded fusion
+|\
+| * ca46e6d (pruebas) Introduzco una linea en el Archivo1
+* |   d584e05 Merge branch 'intento' into master
+|\ \
+| * | 96ee459 (intento) Cambio en la rama intento
+* | | dadae86 Cambio en la rama master
+|/ /
+| | * e19d4d6 (ramanuevaV2) A<C3><B1>adi una segunda linea
+| |/
+|/|
+
+C:\Users\Bryan Jácome Tumbaco\Desktop\Nueva carpeta\proyectorama>git log --oneline -6 --graph --all --decorate
+*   1c2ce67 (HEAD -> master) Resuelvo el conflico ded fusion
+|\
+| * ca46e6d (pruebas) Introduzco una linea en el Archivo1
+* |   d584e05 Merge branch 'intento' into master
+|\ \
+| * | 96ee459 (intento) Cambio en la rama intento
+* | | dadae86 Cambio en la rama master
+|/ /
+| | * e19d4d6 (ramanuevaV2) A<C3><B1>adi una segunda linea
+| |/
+|/|
